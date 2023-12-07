@@ -1,0 +1,67 @@
+* {
+    font-family: serif;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 1rem;
+    width: 90%;
+    background-color: rgb(202, 157, 111);
+}
+
+a {
+    color: rgb(3, 3, 181);
+}
+
+#bored,
+#define,
+#ins_quote,
+#author,
+#help {
+    font-size: 20px;
+    background-color: white;
+    padding: 15px;
+}
+
+#c1_card,
+#c2_card {
+    width: 100%;
+}
+
+#save_fact,
+#save_bored,
+#save_quote,
+#save_c1,
+#save_c2 {
+    background-color: blue;
+    color: white;
+}
+
+/* Small Screens */
+@media (min-width: 450px) {
+
+    #news1,
+    #news2 {
+        font-size: 20px
+    }
+
+    #c1_title,
+    #c2_title {
+        font-size: 30px
+    }
+
+    #c1_card,
+    #c2_card {
+        width: 50%;
+    }
+}

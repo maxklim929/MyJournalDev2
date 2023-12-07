@@ -1,0 +1,51 @@
+* {
+    font-family: serif;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#titlehead {
+    text-align: center;
+    background-color: white;
+}
+
+
+
+#submitbutton {
+    background-color: green;
+    color: white;
+}
+
+#travel-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 80%;
+}
+
+#newentry {
+    height: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Small Screens */
+@media (min-width: 450px) {
+    #travel-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #newentry {
+        height: 50%;
+        margin-right: 1rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
